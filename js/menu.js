@@ -1,7 +1,6 @@
-
+const openBtn = document.querySelector('.menu-open');
+const closeBtn = document.querySelector('.menu-close');
 const mobileMenu = document.querySelector('.mobile-menu');
-const openBtn = document.querySelector('.burger-btn');
-const closeBtn = document.querySelector('.mobile-close-btn');
 
 openBtn.addEventListener('click', () => {
   mobileMenu.classList.add('is-open');
@@ -9,4 +8,10 @@ openBtn.addEventListener('click', () => {
 
 closeBtn.addEventListener('click', () => {
   mobileMenu.classList.remove('is-open');
+});
+
+document.querySelectorAll('.mobile-menu a').forEach(link => {
+  link.addEventListener('click', () => {
+    mobileMenu.classList.remove('is-open');
+  });
 });
