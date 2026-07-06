@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flora</title>
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+
+<header class="header">
+  <div class="container header-container">
+    <a class="logo" href="./index.html">flora</a>
+
+    <nav class="nav">
+      <ul class="nav-list">
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Bestsellers</a></li>
+        <li><a href="#">Bouquets</a></li>
+        <li><a href="#">Feedback</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+    </nav>
+
+    <button class="header-btn" type="button">Explore Bouquets</button>
+
+    <button class="burger-btn" type="button" aria-label="Open menu">
+      ☰
+    </button>
+  </div>
+</header>
+
+<div class="mobile-menu">
+  <div class="mobile-menu-container">
+    <button class="mobile-close-btn" type="button">✕</button>
+
+    <ul class="mobile-menu-list">
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Bestsellers</a></li>
+      <li><a href="#">Bouquets</a></li>
+      <li><a href="#">Feedback</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+  </div>
+</div>
+
+<main>
+  <section class="hero section">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <h1 class="hero-title">Brighten Your Day with Our Stunning Bouquets</h1>
+        <p class="hero-text">
+          At Flora, we believe every occasion deserves a beautiful bouquet.
+        </p>
+        <button class="primary-btn" type="button">Explore Our Bestsellers</button>
+      </div>
+
+      <div class="hero-image"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Top-Selling Bouquets</h2>
+
+      <ul class="cards-list">
+        <li class="card">
+          <div class="card-image"></div>
+          <h3>Spring Elegance</h3>
+          <p>$35</p>
+        </li>
+
+        <li class="card">
+          <div class="card-image"></div>
+          <h3>Berry Chic</h3>
+          <p>$40</p>
+        </li>
+
+        <li class="card">
+          <div class="card-image"></div>
+          <h3>Lavender Dream</h3>
+          <p>$55</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="footer">
+  <div class="container footer-container">
+    <a class="footer-logo" href="./index.html">flora</a>
+
+    <ul class="footer-nav">
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Bestsellers</a></li>
+      <li><a href="#">Bouquets</a></li>
+      <li><a href="#">Feedback</a></li>
+      <li><a href="#">Contacts</a></li>
+    </ul>
+
+    <p class="footer-copy">© 2025 Flora. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="./js/menu.js"></script>
+</body>
+</html>
