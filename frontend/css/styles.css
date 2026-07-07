@@ -1,0 +1,54 @@
+
+:root{
+--main:#1f1f1f;
+--accent:#9c6644;
+}
+
+body{
+margin:0;
+font-family:Arial,sans-serif;
+color:var(--main);
+}
+
+.container{
+max-width:1336px;
+padding:0 12px;
+margin:0 auto;
+}
+
+.hero{
+padding:48px 0;
+}
+
+.bouquets-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:24px;
+margin-bottom:24px;
+}
+
+.card{
+border:1px solid #ddd;
+padding:16px;
+border-radius:12px;
+}
+
+.backdrop{
+position:fixed;
+inset:0;
+background:rgba(0,0,0,.5);
+display:none;
+align-items:center;
+justify-content:center;
+}
+
+.backdrop.is-open{
+display:flex;
+}
+
+.modal{
+background:#fff;
+padding:24px;
+border-radius:16px;
+width:320px;
+}
